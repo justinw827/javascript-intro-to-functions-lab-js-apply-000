@@ -20,14 +20,15 @@ function sayHiToGrandma(string) {
   var lowercase = "hello"
   var uppercase = "HELLO"
   var mixedcase = "i love you, Grandma."
-  
   if (string.toLowerCase() === lowercase) {
-    return "I can't hear you!"
+    retVal = "I can't hear you!"
   } else if (string.toUpperCase() === uppercase) {
-    return "YES INDEED!"
+    retVal = "YES INDEED!"
   } else if (string === mixedcase) {
-    return "I love you too."
+    retVal = "I love you too."
   } else {
-    return "Unexpected string."
+    retVal = "Unexpected string."
   }
+  
+  return retVal;
 }
