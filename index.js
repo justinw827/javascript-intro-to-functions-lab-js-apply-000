@@ -25,6 +25,10 @@ function sayHiToGrandma(string) {
   } else if (string.toUpperCase() === uppercase) {
     retVal = "YES INDEED!"
   } else if (string === mixedcase) {
-    retVal = 
+    retVal = "I love you too."
+  } else {
+    retVal = "Unexpected string."
   }
+  
+  return retVal;
 }
