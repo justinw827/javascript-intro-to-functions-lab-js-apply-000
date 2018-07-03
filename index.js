@@ -18,7 +18,7 @@ function sayHiToGrandma(string) {
   var retVal = "empty"
   
   if (string === "hello") {
-    retVal = "I can\'t hear you"
+    retVal = "I can\'t hear you!"
   }
   
   return retVal;
